@@ -1,0 +1,10 @@
+{
+    "api_entrypoint": "http://xxx.xxx.xxx.xx:8123/api",
+    "key": "",
+    "update_interval": 10000,
+    "sensors": [
+        "sensor.xxx",
+        "sensor.yyy",
+        "sensor.zzz"
+    ]
+}
