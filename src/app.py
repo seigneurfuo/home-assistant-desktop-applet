@@ -1,7 +1,7 @@
 import json
 import os.path
 import sys
-from pprint import pprint
+from pathlib import Path
 
 from PyQt6.QtCore import QTimer
 from PyQt6.QtGui import QIcon
@@ -28,7 +28,7 @@ class StatusIcon(QSystemTrayIcon):
         self.init_ui()
 
     def load_config(self):
-        with open(os.path.join(os.path.dirname(__file__), "config.json")) as config_file:
+        with open(os.path.join(Path.home(), ".config", "home-assistant-indicator.json")) as config_file:
             self.config = json.load(config_file)
 
     def init_ui(self):

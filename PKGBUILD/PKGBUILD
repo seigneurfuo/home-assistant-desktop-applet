@@ -1,0 +1,23 @@
+# Maintainer: Agnésa Théo <seigneurfuo@protonmail.com>
+# Contributor: Agnésa Théo <seigneurfuo@protonmail.com>
+
+pkgname=home-assistant-indicator
+pkgver="2024.02.03"
+pkgrel=1
+pkgdesc="Un programme qui permet de monter les partages réseaux du NAS depuis la zone de notification"
+arch=("any")
+url="https://seigneurfuo.com"
+license=('NONE')
+groups=("★ seigneurfuo: Paquets persos")
+depends=('python' 'python-pyqt6' 'python-requests')
+source=("${pkgname}.py" "${pkgname}.desktop" "${pkgname}-autostart.desktop")
+md5sums=('SKIP' 'SKIP' 'SKIP')
+
+package() 
+{
+	# Copie du script Python
+	install -Dm644 "${pkgname}.py" "${pkgdir}/usr/bin/${pkgname}.py"
+
+	install -Dm644 "${pkgname}.desktop" "${pkgdir}/usr/share/applications/${pkgname}.desktop"
+	install -Dm644 "${pkgname}-autostart.desktop" "${pkgdir}/etc/xdg/autostart/${pkgname}.desktop"
+}
