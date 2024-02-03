@@ -4,7 +4,7 @@
 pkgname=home-assistant-indicator
 pkgver="2024.02.03"
 pkgrel=1
-pkgdesc="Un programme qui permet de monter les partages réseaux du NAS depuis la zone de notification"
+pkgdesc="Application en zone de notification pour monter les différents capteurs d'une instance Home Assistant"
 arch=("any")
 url="https://seigneurfuo.com"
 license=('NONE')
