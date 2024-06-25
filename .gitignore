@@ -1,7 +1,8 @@
 .idea/
 venv/
 config.json
-PKGBUILD/src/
-PKGBUILD/pkg/
-PKGBUILD/*.pkg.*
+packaging/home-assistant-indicator.py
+packaging/PKGBUILD/src/
+packaging/PKGBUILD/pkg/
+packaging/PKGBUILD/*.pkg.*
 home-assistant-indicator.json
