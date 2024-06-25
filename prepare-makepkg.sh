@@ -1,3 +1,3 @@
 #!/bin/bash
-cd "PKGBUILD"
-ln -s -v -f "../src/app.py" home-assistant-indicator.py
+cd "packaging/PKGBUILD"
+ln -s -v -f "../../src/app.py" home-assistant-indicator.py
