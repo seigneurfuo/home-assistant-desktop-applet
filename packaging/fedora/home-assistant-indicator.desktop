@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Home Assistant Indicator
+Comment[fr_FR]=Application en zone de notification pour monter les différents capteurs d'une instance Home Assistant
+Exec=python /usr/bin/home-assistant-indicator.py
+Icon=home
+Terminal=false
+Type=Application
+Categories=Utility;

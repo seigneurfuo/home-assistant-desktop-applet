@@ -1,7 +1,9 @@
 .idea/
 venv/
 config.json
-packaging/home-assistant-indicator.py
+packaging/fedora/.build*
+packaging/fedora/**/*.rpm
+packaging/PKGBUILD/home-assistant-indicator.py
 packaging/PKGBUILD/src/
 packaging/PKGBUILD/pkg/
 packaging/PKGBUILD/*.pkg.*

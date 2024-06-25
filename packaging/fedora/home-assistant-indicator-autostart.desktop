@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Type=Application
+Name=Home Assistant Indicator
+Comment[fr_FR]=Application en zone de notification pour monter les différents capteurs d'une instance Home Assistant
+Exec=python /usr/bin/home-assistant-indicator.py
+StartupNotify=false
+Terminal=false
+Hidden=false
